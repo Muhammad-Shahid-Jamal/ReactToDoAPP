@@ -1,0 +1,34 @@
+.singleTask .task-name{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    margin-left: 10px;
+}
+.singleTask{
+    background-color: #e6e6e6;
+    padding: 15px 10px 0px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.singleTask:hover{
+    background-color: #51eccf !important;
+}
+
+.singleTask:nth-child(even){
+    background-color: #d6f6f0;
+}
+
+.singleTask .actions{
+    float: right;
+}
+
+.singleTask .actions .edit{
+    margin-right: 10px;
+    color: #019d80;
+    cursor: pointer;
+}
+
+.singleTask .actions .delete{
+    color: #e41c1c;
+    cursor: pointer;
+}

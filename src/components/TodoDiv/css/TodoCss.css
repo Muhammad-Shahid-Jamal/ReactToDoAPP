@@ -1,0 +1,45 @@
+.well{
+    margin-top: 65px;
+}
+.delete-btn-selc{
+    background-color: #019d80;
+    border: none;
+    color: white;
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 5px;
+}
+
+#task_str{
+    width: 90%;
+    border: none;
+    padding: 10px;
+    background-color: #019d801f;
+    border-radius: 3px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and (max-width: 480px){
+    #task_str{
+       width: 80%;
+    }
+}
+
+#task_str:focus{
+    outline: #019d80 auto 5px;
+}
+
+#round-add-btn{
+    float: right;
+    border: none;
+    padding: 3px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #019d80;
+    font-size: 25px;
+    color: white;
+}
+
+#round-add-btn:focus{
+    outline: none;
+}

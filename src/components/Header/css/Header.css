@@ -1,0 +1,34 @@
+header{
+    background-color: #019d80;
+    position: fixed;
+    width: 100%;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    z-index: 1;
+}
+nav h2{
+    margin-top: 10px;
+}
+nav button{
+    margin-top: 13px;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: transparent;
+    border: 0px;
+}
+
+nav button .icon-bar{
+    display: block;
+    background-color: white;
+    width: 25px;
+    height: 2px;
+    margin: 0px 0px 5px 0px;
+}
+
+nav button .icon-bar:last-child{
+    display: block;
+    background-color: white;
+    width: 25px;
+    height: 2px;
+    margin: 0px 0px 0px 0px;
+}
